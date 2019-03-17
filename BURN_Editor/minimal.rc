@@ -1,0 +1,13 @@
+///////////////////////////////////////////////////////////////////////////
+// GSi BURN Editor - Version 1.0 - October 2013
+// Uses wxWidgets and RtMidi for cross platform (Win and Mac) compatibility
+//
+// www.GenuineSoundware.com
+// 
+///////////////////////////////////////////////////////////////////////////
+
+#include "wx/msw/wx.rc"
+
+ICON_GSi		ICON	"gsi.ico"
+//COVERBMP		BITMAP	"BurnEd_cover.bmp"
+//ABOUTBMP		BITMAP	"BurnEd_about.bmp"

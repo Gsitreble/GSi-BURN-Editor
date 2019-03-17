@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		405DD1B0063CD57F00F579EE /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1842CAB008565A280032BCF7 /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				405DD1C2063CD5B500F579EE /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1842CAFB085664390032BCF7 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1842CAF7085664390032BCF7 /* AGL.framework */; };
+		1842CAFC085664390032BCF7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1842CAF8085664390032BCF7 /* IOKit.framework */; };
+		1842CAFD085664390032BCF7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1842CAF9085664390032BCF7 /* OpenGL.framework */; };
+		1842CAFE085664390032BCF7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1842CAFA085664390032BCF7 /* WebKit.framework */; };
+		4086D0E9063BBC5B00D4CD53 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		4086D0EC063BBC5B00D4CD53 /* System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA60173504D423C000000080 /* System.framework */; };
+		40C8A9AB0C53458D006D5BE9 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C8A9AA0C53458D006D5BE9 /* QuickTime.framework */; };
+		40F017470A306CAD00AC9076 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F017460A306CAD00AC9076 /* AppKit.framework */; };
+		C586C47518226C6E00FA859D /* BurnEdGUI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C586C47018226C6E00FA859D /* BurnEdGUI.cpp */; };
+		C586C47618226C6E00FA859D /* BurnEdGUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C586C47118226C6E00FA859D /* BurnEdGUI.h */; };
+		C586C47818226C6E00FA859D /* RtError.h in Headers */ = {isa = PBXBuildFile; fileRef = C586C47318226C6E00FA859D /* RtError.h */; };
+		C586C47918226C6E00FA859D /* RtMidi.h in Headers */ = {isa = PBXBuildFile; fileRef = C586C47418226C6E00FA859D /* RtMidi.h */; };
+		C593D8EA17801C2700FF951B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C593D8E917801C2700FF951B /* CoreAudio.framework */; };
+		C593D8EC17801C2700FF951B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C593D8EB17801C2700FF951B /* CoreFoundation.framework */; };
+		C593D8EE17801C2700FF951B /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C593D8ED17801C2700FF951B /* CoreMIDI.framework */; };
+		C5A72E071780B36A00E4746E /* GSi.icns in Resources */ = {isa = PBXBuildFile; fileRef = C5A72E061780B36A00E4746E /* GSi.icns */; };
+		C5C96667177FA2AF00F87748 /* libwx_mac_static.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C96666177FA2AF00F87748 /* libwx_mac_static.a */; };
+		C5C96673177FA4A400F87748 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5C96671177FA4A400F87748 /* main.cpp */; };
+		C5C96674177FA4A400F87748 /* RtMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C5C96672177FA4A400F87748 /* RtMidi.cpp */; };
+		C5C966C8177FAAD200F87748 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C966C7177FAAD200F87748 /* main.h */; };
+		C5C966D3177FAB2700F87748 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C966D2177FAB2700F87748 /* stdafx.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		405DD1C1063CD5B500F579EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20286C28FDCF999611CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4086D0E2063BBC5B00D4CD53;
+			remoteInfo = StaticDebug;
+		};
+		C5C96681177FA50200F87748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C9667B177FA50200F87748 /* wxWindows.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4086C8CB063AB30000D4CD53;
+			remoteInfo = static;
+		};
+		C5C96683177FA50200F87748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C9667B177FA50200F87748 /* wxWindows.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4086CBE1063AB30000D4CD53;
+			remoteInfo = dynamic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1842CAF7085664390032BCF7 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		1842CAF8085664390032BCF7 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		1842CAF9085664390032BCF7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		1842CAFA085664390032BCF7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		1864B4F408566CAB00E32E9B /* BURN_Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BURN_Editor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		4086D0EF063BBC5B00D4CD53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40C8A9AA0C53458D006D5BE9 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		40F017460A306CAD00AC9076 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		C586C47018226C6E00FA859D /* BurnEdGUI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BurnEdGUI.cpp; sourceTree = "<group>"; };
+		C586C47118226C6E00FA859D /* BurnEdGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurnEdGUI.h; sourceTree = "<group>"; };
+		C586C47318226C6E00FA859D /* RtError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtError.h; sourceTree = "<group>"; };
+		C586C47418226C6E00FA859D /* RtMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtMidi.h; sourceTree = "<group>"; };
+		C593D8E917801C2700FF951B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C593D8EB17801C2700FF951B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C593D8ED17801C2700FF951B /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		C5A72E061780B36A00E4746E /* GSi.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GSi.icns; sourceTree = "<group>"; };
+		C5C96666177FA2AF00F87748 /* libwx_mac_static.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwx_mac_static.a; path = "wxWidgets-2.8.12/src/build/Deployment/libwx_mac_static.a"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		C5C96671177FA4A400F87748 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C5C96672177FA4A400F87748 /* RtMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtMidi.cpp; sourceTree = "<group>"; };
+		C5C9667B177FA50200F87748 /* wxWindows.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = wxWindows.xcodeproj; path = "wxWidgets-2.8.12/src/wxWindows.xcodeproj"; sourceTree = SYSTEM_DEVELOPER_DIR; };
+		C5C966C7177FAAD200F87748 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		C5C966D2177FAB2700F87748 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		CA60173504D423C000000080 /* System.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = System.framework; path = /System/Library/Frameworks/System.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4086D0E8063BBC5B00D4CD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4086D0E9063BBC5B00D4CD53 /* Carbon.framework in Frameworks */,
+				4086D0EC063BBC5B00D4CD53 /* System.framework in Frameworks */,
+				1842CAFB085664390032BCF7 /* AGL.framework in Frameworks */,
+				1842CAFC085664390032BCF7 /* IOKit.framework in Frameworks */,
+				1842CAFD085664390032BCF7 /* OpenGL.framework in Frameworks */,
+				1842CAFE085664390032BCF7 /* WebKit.framework in Frameworks */,
+				40F017470A306CAD00AC9076 /* AppKit.framework in Frameworks */,
+				40C8A9AB0C53458D006D5BE9 /* QuickTime.framework in Frameworks */,
+				C5C96667177FA2AF00F87748 /* libwx_mac_static.a in Frameworks */,
+				C593D8EA17801C2700FF951B /* CoreAudio.framework in Frameworks */,
+				C593D8EC17801C2700FF951B /* CoreFoundation.framework in Frameworks */,
+				C593D8EE17801C2700FF951B /* CoreMIDI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1864B4F608566CB300E32E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1864B4F408566CAB00E32E9B /* BURN_Editor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* ¬´PROJECTNAME¬ª */ = {
+			isa = PBXGroup;
+			children = (
+				C5C9667B177FA50200F87748 /* wxWindows.xcodeproj */,
+				20286C2AFDCF999611CA2CEA /* Sources */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
+				4086D0EF063BBC5B00D4CD53 /* Info.plist */,
+				1864B4F608566CB300E32E9B /* Products */,
+			);
+			name = "¬´PROJECTNAME¬ª";
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C5C966D2177FAB2700F87748 /* stdafx.h */,
+				C5C966C7177FAAD200F87748 /* main.h */,
+				C586C47018226C6E00FA859D /* BurnEdGUI.cpp */,
+				C586C47118226C6E00FA859D /* BurnEdGUI.h */,
+				C586C47318226C6E00FA859D /* RtError.h */,
+				C586C47418226C6E00FA859D /* RtMidi.h */,
+				C5C96671177FA4A400F87748 /* main.cpp */,
+				C5C96672177FA4A400F87748 /* RtMidi.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5A72E061780B36A00E4746E /* GSi.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C5C96666177FA2AF00F87748 /* libwx_mac_static.a */,
+				40C8A9AA0C53458D006D5BE9 /* QuickTime.framework */,
+				40F017460A306CAD00AC9076 /* AppKit.framework */,
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+				CA60173504D423C000000080 /* System.framework */,
+				1842CAF7085664390032BCF7 /* AGL.framework */,
+				1842CAF8085664390032BCF7 /* IOKit.framework */,
+				1842CAF9085664390032BCF7 /* OpenGL.framework */,
+				1842CAFA085664390032BCF7 /* WebKit.framework */,
+				C593D8E917801C2700FF951B /* CoreAudio.framework */,
+				C593D8EB17801C2700FF951B /* CoreFoundation.framework */,
+				C593D8ED17801C2700FF951B /* CoreMIDI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		C5C9667C177FA50200F87748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5C96682177FA50200F87748 /* libwx_mac_static.a */,
+				C5C96684177FA50200F87748 /* libwx_mac.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4086D0E3063BBC5B00D4CD53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C966C8177FAAD200F87748 /* main.h in Headers */,
+				C5C966D3177FAB2700F87748 /* stdafx.h in Headers */,
+				C586C47618226C6E00FA859D /* BurnEdGUI.h in Headers */,
+				C586C47818226C6E00FA859D /* RtError.h in Headers */,
+				C586C47918226C6E00FA859D /* RtMidi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4086D0E2063BBC5B00D4CD53 /* static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1842CAA008565A280032BCF7 /* Build configuration list for PBXNativeTarget "static" */;
+			buildPhases = (
+				4086D0E3063BBC5B00D4CD53 /* Headers */,
+				4086D0E4063BBC5B00D4CD53 /* Resources */,
+				4086D0E6063BBC5B00D4CD53 /* Sources */,
+				4086D0E8063BBC5B00D4CD53 /* Frameworks */,
+				4086D0ED063BBC5B00D4CD53 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = static;
+			productInstallPath = "$(HOME)/Applications";
+			productName = minimalStaticDebug;
+			productReference = 1864B4F408566CAB00E32E9B /* BURN_Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1842CAB408565A280032BCF7 /* Build configuration list for PBXProject "BURN_Editor" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 20286C29FDCF999611CA2CEA /* ¬´PROJECTNAME¬ª */;
+			productRefGroup = 20286C29FDCF999611CA2CEA /* ¬´PROJECTNAME¬ª */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C5C9667C177FA50200F87748 /* Products */;
+					ProjectRef = C5C9667B177FA50200F87748 /* wxWindows.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4086D0E2063BBC5B00D4CD53 /* static */,
+				405DD1B0063CD57F00F579EE /* Build All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C5C96682177FA50200F87748 /* libwx_mac_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwx_mac_static.a;
+			remoteRef = C5C96681177FA50200F87748 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C5C96684177FA50200F87748 /* libwx_mac.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libwx_mac.dylib;
+			remoteRef = C5C96683177FA50200F87748 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4086D0E4063BBC5B00D4CD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A72E071780B36A00E4746E /* GSi.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		4086D0ED063BBC5B00D4CD53 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4086D0E6063BBC5B00D4CD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C96673177FA4A400F87748 /* main.cpp in Sources */,
+				C5C96674177FA4A400F87748 /* RtMidi.cpp in Sources */,
+				C586C47518226C6E00FA859D /* BurnEdGUI.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		405DD1C2063CD5B500F579EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4086D0E2063BBC5B00D4CD53 /* static */;
+			targetProxy = 405DD1C1063CD5B500F579EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1842CAA108565A280032BCF7 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ../../include/wx/wxprec.h;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NO_GCC_PRAGMA,
+					__WXMAC__,
+					"wxUSE_BASE=1",
+					"_FILE_OFFSET_BITS=64",
+					_LARGE_FILES,
+					"__WXMAC_XCODE__=1",
+					"WX_PRECOMP=1",
+					MACOS_CLASSIC,
+					"__WXDEBUG__=1",
+				);
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../../src/build/Development",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(DEVELOPER_DIR)/wxWidgets-2.8.12/src/build/Deployment\"";
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
+				OTHER_LDFLAGS = (
+					"-liconv",
+					"-lz",
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				UNSTRIPPED_PRODUCT = "<Multiple values>";
+				USER_HEADER_SEARCH_PATHS = "${SYMROOT}/include ../../include ../../src/build/include .";
+				USE_SEPARATE_HEADERMAPS = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		1842CAA208565A280032BCF7 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Developer/wxWidgets-2.8.12/include/wx/wxprec.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NO_GCC_PRAGMA,
+					__WXMAC__,
+					"wxUSE_BASE=1",
+					"_FILE_OFFSET_BITS=64",
+					_LARGE_FILES,
+					"__WXMAC_XCODE__=1",
+					"WX_PRECOMP=1",
+					MACOS_CLASSIC,
+					__MACOSX_CORE__,
+				);
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"$(DEVELOPER_DIR)/wxWidgets-2.8.12/src/build/Deployment\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.5;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
+				OTHER_LDFLAGS = (
+					"-liconv",
+					"-lz",
+				);
+				PRODUCT_NAME = BURN_Editor;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				UNSTRIPPED_PRODUCT = "<Multiple values>";
+				USER_HEADER_SEARCH_PATHS = "${SYMROOT}/include /Developer/wxWidgets-2.8.12/include /Developer/wxWidgets-2.8.12/src/build/include .";
+				USE_SEPARATE_HEADERMAPS = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Deployment;
+		};
+		1842CAB108565A280032BCF7 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Build All";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		1842CAB208565A280032BCF7 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "Build All";
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		1842CAB508565A280032BCF7 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = __WXDEBUG__;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = ../../src/;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = minimal;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		1842CAB608565A280032BCF7 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DynamicLibName = libwx_mac.dylib;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = ../../src/build/Deployment;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = minimal;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1842CAA008565A280032BCF7 /* Build configuration list for PBXNativeTarget "static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1842CAA108565A280032BCF7 /* Development */,
+				1842CAA208565A280032BCF7 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		1842CAB008565A280032BCF7 /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1842CAB108565A280032BCF7 /* Development */,
+				1842CAB208565A280032BCF7 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		1842CAB408565A280032BCF7 /* Build configuration list for PBXProject "BURN_Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1842CAB508565A280032BCF7 /* Development */,
+				1842CAB608565A280032BCF7 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}

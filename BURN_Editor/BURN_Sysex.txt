@@ -1,0 +1,49 @@
+
+// Prefix bytes for datatypes
+#define MIDI_DATATYPE_PRESET		0x1A		// Data type ID for a Preset sysex dump
+#define MIDI_DATATYPE_GLOBALS		0x1B		// Data type ID for a Global settings sysex dump (probably not used)
+
+// Prefix bytes for performing an action
+#define MIDI_SYX_SET_FX			0x1C		// Prefix ID for setting an FX number via sysex
+#define MIDI_SYX_SET_RT_PAR		0x1D		// Prefix ID for setting a Real Time parameter value via sysex
+#define MIDI_SYX_SET_NRT_PAR		0x1E		// Prefix ID for setting a Non real time parameter value via sysex
+#define MIDI_SYX_SET_MOPORT		0x1F		// Prefix ID for setting MIDI OUT port, following byte must be 0 for internal UART or 1 for RA0
+
+// Prefix bytes for requesting an action (response follows upon request)
+#define MIDI_SYX_REQ_VERSION		0x2A		// Prefix ID for requesting the version string
+#define MIDI_SYX_REQ_PRESDUMP		0x2B		// Prefix ID for requesting a single preset dump (preset number must follow)
+#define MIDI_SYX_REQ_BANKDUMP		0x2C		// Prefix ID for requesting a whole preset bank dump
+#define MIDI_SYX_SET_PRES_LOAD		0x2F		// Prefix ID for loading a preset (preset number must follow)
+
+
+PRESET DUMP:
+F0 08 45 1A nn [data] F7 // nn = preset number < 32 // [data] is 64 bytes long
+
+SET FX:
+F0 08 45 1C nn F7 // nn = fx num
+
+CONTROL REAL TIME PARAMETERS:
+F0 08 45 1D nn vv F7 // nn = param. num; vv = param. val.
+
+CONTROL NON REAL TIME PARAMETERS:
+F0 08 45 1E nn vv F7 // nn = param. num; vv = param. val.
+
+SET MIDI OUT PORT:
+F0 08 45 1F 01 F7 -> Sets RA0 as MIDI OUT PORT;
+F0 08 45 1F 00 F7 -> Sets internal UART as MIDI OUT PORT.
+
+REQUEST VERSION STRING:
+F0 08 45 2A F7
+
+REQUEST SINGLE PRESET DUMP:
+F0 08 45 2B nn F7 // nn = preset number < 32
+
+REQUEST WHOLE BANK DUMP:
+F0 08 45 2C F7
+
+PRESET LOAD:
+F0 08 45 2F nn F7 // nn = preset number < 32
+
+Receive chunk for custom FX
+// Example: F0 08 45 30 cn [data] F7 // cn = chunk number < 9 // [data] = 64 bytes
+
